@@ -11,7 +11,13 @@
 }
 
 /* Customize Slideshow */
+.container .fade{
+margin:40px auto;
+width:70vw;
+/*Set Max Content width*/
+max-width: 700;
 
+}
 /* Customize Previous/Next/Dots/Autoplay */
 
 .slick-autoplay-toggle-button,
@@ -34,6 +40,9 @@
   color: black;
 }
 
+body.slick-demo{
+  background-color:   #EB0131;
+}
 /*Responsive Images*/
 img {
   max-width: 100%;
@@ -60,6 +69,14 @@ background: radial-gradient(circle, rgba(250, 231, 90, 1) 0%, rgba(245, 66, 102,
   text-shadow: 2px 2px #E56A00;
   background-size: cover;
 }
+
+.slick-demo {
+background: #fae75a;
+background: radial-gradient(circle, rgba(250, 231, 90, 1) 0%, rgba(245, 66, 102, 1) 82%);
+  text-align: center;
+  background-size: cover;
+}
+
 
 header.primary h1 {
   font-size: 3rem;
