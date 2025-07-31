@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6{
 
 header.primary {
 background: #fae75a;
-background: radial-gradient(circle, rgba(250, 231, 90, 1) 0%, rgba(245, 66, 102, 1) 82%);
+background: radial-gradient(circle, rgba(250, 231, 90, 1) 0%, #f54266 82%);
   text-align: center;
   color: #ffffff;
   padding: 30px;
@@ -131,12 +131,14 @@ header.primary a:hover {
   margin: 40px auto;
   border-top: 1px dotted #c0c0c0;
   border-bottom: 1px dotted #c0c0c0;
-  padding: 40px 0;
+  padding: 40px;
 }
 
 article.post {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   padding: 10px;
+  background-color: white;
+  width: calc(100% / 3);
 }
 
 article.post time,
@@ -165,7 +167,7 @@ article.post p {
 }
 
 aside {
-  background-color: #172635;
+  background-color:  #f54266;
   color: #ffffff;
   padding: 40px;
 }
@@ -190,7 +192,7 @@ aside footer {
 }
 
 #colophon {
-  background-color: #3b638b;
+  background-color:  #E56A00;
   padding: 5px;
   text-align: center;
   color: #ffffff;
